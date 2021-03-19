@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario de Contacto</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form method="POST" action="https://api.web3forms.com/submit" >
+
+	<input type="hidden" name="apikey" value="e2ce0580-385a-4c3a-ade6-9d94d9748e2d">
+	<label for="nombre">Nombre:</label>
+	<input type="text" name="nombre" id="nombre" placeholder="Digite su nombre" required>
+	<br/>
+	<label for="asunto">Asunto:</label>
+	<input type="text" name="Asunto" id="Asunto" placeholder="Digite el asunto">
+	<br/>
+	<label for="email">Email:</label>
+    <input type="email" name="email"  id="email" placeholder="Digite su email" required>
+    <br/>
+    <label for="mensaje">Mensaje:</label>
+    <textarea name="mensaje" id="mensaje" placeholder="Digite se mensaje" required></textarea>
+    <br/>
+    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+    <br/>
+    <button type="submit">Enviar</button>
+	</form>
+</body>
+</html>
